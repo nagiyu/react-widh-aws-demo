@@ -19,6 +19,9 @@
             "vue.volar",
             "dbaeumer.vscode-eslint",
             "saoudrizwan.claude-dev",
+            "bierner.markdown-mermaid",
+            "github.copilot",
+            "github.copilot-chat",
         ]
     },
     "settings": {
