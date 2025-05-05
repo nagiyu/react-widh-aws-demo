@@ -8,3 +8,6 @@
 
 ## 言語ごとの設定
 - 言語ごとの設定は 'ReactWithAWSDemo.code-workspace' を参照してください。
+
+## 言語に関する指示
+- Cline の回答は日本語に限ること。
