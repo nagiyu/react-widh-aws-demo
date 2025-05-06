@@ -1,0 +1,52 @@
+{
+    "folders": [
+        {
+            "path": "./"
+        },
+    ],
+    "extensions": {
+        "recommendations": [
+            "donjayamanne.githistory",
+            "eamodio.gitlens",
+            "oderwat.indent-rainbow",
+            "github.vscode-pull-request-github",
+            "humao.rest-client",
+            "wmaurer.change-case",
+            "adpyke.vscode-sql-formatter",
+            "ms-vscode-remote.remote-ssh",
+            "ahmadalli.vscode-nginx-conf",
+            "wayou.vscode-todo-highlight",
+            "vue.volar",
+            "dbaeumer.vscode-eslint",
+            "saoudrizwan.claude-dev",
+            "bierner.markdown-mermaid",
+            "github.copilot",
+            "github.copilot-chat",
+        ]
+    },
+    "settings": {
+        "editor.renderWhitespace": "boundary",
+        "[shellscript]": {
+            "editor.tabSize": 2
+        },
+        "[typescript]": {
+            "editor.tabSize": 2
+        },
+        "[jsonc]": {
+            "editor.tabSize": 2
+        },
+        "[javascript]": {
+            "editor.tabSize": 2
+        },
+        "[html]": {
+            "editor.tabSize": 2
+        },
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        },
+        "editor.formatOnSave": true,
+        "[markdown]": {
+            "editor.tabSize": 2
+        }
+    },
+}
