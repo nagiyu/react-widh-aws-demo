@@ -13,6 +13,9 @@
 3. **ドキュメント**:
   - 開発中にClineを積極的に活用し、Markdownでドキュメントを適宜まとめていきます。
 
+4. **Lambda開発環境**:
+  - Lambdaの開発・テストにはDocker上で動作するLocalStackを利用します。
+
 ## システム図
 ```mermaid
 graph TD;
