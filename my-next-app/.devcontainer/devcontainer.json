@@ -1,7 +1,0 @@
-{
-  "name": "Next.js Dev Container",
-  "dockerComposeFile": "../../docker-compose.yml",
-  "service": "client",
-  "workspaceFolder": "/app",
-  "remoteUser": "node"
-}
