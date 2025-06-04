@@ -35,6 +35,6 @@ jobs:
         docker tag react-widh-aws-demo:latest ${{ secrets.AWS_REPOSITORY_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/react-widh-aws-demo:latest
         docker push ${{ secrets.AWS_REPOSITORY_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/react-widh-aws-demo:latest
 
-    # - name: Update Lambda Function
-    #   run: |
-    #     aws lambda update-function-code --function-name react-widh-aws-demo --image-uri ${{ secrets.AWS_REPOSITORY_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/react-widh-aws-demo:latest
+    - name: Update Lambda Function
+      run: |
+        aws lambda update-function-code --function-name react-widh-aws-demo --image-uri ${{ secrets.AWS_REPOSITORY_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/react-widh-aws-demo:latest
